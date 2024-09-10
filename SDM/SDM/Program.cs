@@ -59,10 +59,13 @@ internal class Program {
         .Execute();
       dump(session);
 
-      var entities = client.CreateGetBuilder(config.Server)
-        .WithSession(session)
-        .Execute("features/summaries");
-      dump(entities);
+      var get = client.CreateGetBuilder(config.Server)
+        .WithSession(session);
+
+      dump(get.Execute("features"));
+      dump(get.Execute("features/summaries"));
+      dump(get.Execute("clients"));
+      dump(get.Execute("configuration"));
 
       var factory = JwtFactory.Generate(2048);
 

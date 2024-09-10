@@ -42,8 +42,7 @@
               "RelativeToolTip": "SDM\\Client\\Client.cs",
               "ViewState": "AgIAABEAAAAAAAAAAAAIwCAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-09T20:40:17.807Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-09T20:40:17.807Z"
             },
             {
               "$type": "Document",
@@ -55,8 +54,7 @@
               "RelativeToolTip": "SDM\\Client\\Client.GetBuilder.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-09T20:34:49.086Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-09T20:34:49.086Z"
             },
             {
               "$type": "Document",
@@ -64,9 +62,9 @@
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\development\\served-device-manager\\SDM\\SDM\\Program.cs",
               "RelativeDocumentMoniker": "SDM\\Program.cs",
-              "ToolTip": "D:\\development\\served-device-manager\\SDM\\SDM\\Program.cs*",
-              "RelativeToolTip": "SDM\\Program.cs*",
-              "ViewState": "AgIAADgAAAAAAAAAAAAIwD8AAAAkAAAAAAAAAA==",
+              "ToolTip": "D:\\development\\served-device-manager\\SDM\\SDM\\Program.cs",
+              "RelativeToolTip": "SDM\\Program.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAxwEQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-09T15:06:19.322Z",
               "EditorCaption": ""
