@@ -5,6 +5,14 @@
     {
       "AbsoluteMoniker": "D:0:0:{F327FA45-B223-40B9-A8A6-8219E91725B9}|SDM\\SDM.csproj|d:\\development\\served-device-manager\\sdm\\sdm\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F327FA45-B223-40B9-A8A6-8219E91725B9}|SDM\\SDM.csproj|solutionrelative:sdm\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F327FA45-B223-40B9-A8A6-8219E91725B9}|SDM\\SDM.csproj|d:\\development\\served-device-manager\\sdm\\sdm\\client\\client.getbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F327FA45-B223-40B9-A8A6-8219E91725B9}|SDM\\SDM.csproj|solutionrelative:sdm\\client\\client.getbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F327FA45-B223-40B9-A8A6-8219E91725B9}|SDM\\SDM.csproj|d:\\development\\served-device-manager\\sdm\\sdm\\client\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F327FA45-B223-40B9-A8A6-8219E91725B9}|SDM\\SDM.csproj|solutionrelative:sdm\\client\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,15 +34,41 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Client.cs",
+              "DocumentMoniker": "D:\\development\\served-device-manager\\SDM\\SDM\\Client\\Client.cs",
+              "RelativeDocumentMoniker": "SDM\\Client\\Client.cs",
+              "ToolTip": "D:\\development\\served-device-manager\\SDM\\SDM\\Client\\Client.cs",
+              "RelativeToolTip": "SDM\\Client\\Client.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAIwCAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-09T20:40:17.807Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Client.GetBuilder.cs",
+              "DocumentMoniker": "D:\\development\\served-device-manager\\SDM\\SDM\\Client\\Client.GetBuilder.cs",
+              "RelativeDocumentMoniker": "SDM\\Client\\Client.GetBuilder.cs",
+              "ToolTip": "D:\\development\\served-device-manager\\SDM\\SDM\\Client\\Client.GetBuilder.cs",
+              "RelativeToolTip": "SDM\\Client\\Client.GetBuilder.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-09T20:34:49.086Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\development\\served-device-manager\\SDM\\SDM\\Program.cs",
               "RelativeDocumentMoniker": "SDM\\Program.cs",
               "ToolTip": "D:\\development\\served-device-manager\\SDM\\SDM\\Program.cs",
               "RelativeToolTip": "SDM\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA0AAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAQwEIAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-06T08:48:42.019Z",
+              "WhenOpened": "2024-09-09T15:06:19.322Z",
               "EditorCaption": ""
             }
           ]
