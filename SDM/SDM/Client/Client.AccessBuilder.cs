@@ -59,7 +59,7 @@ namespace SDM {
         return this;
       }
 
-      public object Execute() {
+      public Response.Access Execute() {
 
         var request = new RestRequest {
           Method = Method.Post,
@@ -69,13 +69,15 @@ namespace SDM {
         request.AddHeader("Accept", "application/json");
         request.AddHeader("Content-Type", "application/json");
         request.AddHeader("Authorization", $"Bearer {AssertNotNull(Jwt, nameof(Jwt))}");
-        request.AddJsonBody(Request.Access.Create
+
+        var body = Request.Access.Create
           .WithHost(AssertNotNull(Device, nameof(Device)))
           .WithIncremental(Incremental)
           .WithPartial(Partial)
           .WithBorrowInterval(AssertNotNull(BorrowInterval, nameof(BorrowInterval)))
-          .WithIncremental(Incremental)
-          .WithFeatures(Features));
+          .WithFeatures(Features);
+
+        request.AddJsonBody(body);
 
         return base.Execute<Response.Access>(request);
       }

@@ -16,15 +16,18 @@ namespace SDM {
   public class JwtFactory {
     private static readonly DateTime epoch = new DateTime(1970, 1, 1, 0, 0, 0, 0, DateTimeKind.Utc);
 
-    public string PrivateKeyPem { get; }
-    public byte[] PublicKeyDer { get; }
+    public string PrivateKeyPem { get; set; }
+    public byte[] PublicKeyDer { get; set; }
 
 
     private JwtFactory(string pem, byte[] der) {
       PrivateKeyPem = pem;
       PublicKeyDer = der;
     }
-    
+
+    public JwtFactory() : this("", []) {
+    }
+  
     public string Jwt(JwsAlgorithm algorithm, Dictionary<string, object> claims) {
 
       using (var reader = new PemReader(new StreamReader(new MemoryStream(Encoding.UTF8.GetBytes(PrivateKeyPem))))) {

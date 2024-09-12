@@ -14,6 +14,10 @@ namespace SDM {
     public string Producer { get; }
     public string Domain { get; }
 
+    public Client() {
+      Producer = Domain = string.Empty;
+    }
+
     public Client(string producer, string domain) {
       Producer = producer;
       Domain = domain;
